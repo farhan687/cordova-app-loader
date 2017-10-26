@@ -1,7 +1,7 @@
 {
   "files": {
     "app": {
-      "version": "1",
+      "version": "2",
       "filename": "app2.js"
     }
   },
@@ -11,5 +11,5 @@
     "lib/CordovaAppLoader.js",
     "app2.js"
   ],
-  "version": "1"
+  "version": "2"
 }
