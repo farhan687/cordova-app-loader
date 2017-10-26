@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="nl.madebymark.apploader" version="0.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.stasislabs.stasis" version="0.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Cordova App Loader</name>
     <description>
       Cordova App Loader
@@ -7,6 +7,9 @@
     <author email="info@madebymark.nl" href="http://www.madebymark.nl">
         Mark Marijnissen
     </author>
-    <content src="index.html"/>
+    <content src="index.html" />
     <access origin="*" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-file" spec="^4.3.3" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.6.3" />
 </widget>
